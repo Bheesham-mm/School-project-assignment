@@ -1,0 +1,112 @@
+.left,
+.right {
+    z-index: -100;
+}
+
+.contaier {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left h2 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #00bbae;
+    font-family: cursive;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+.cption_ h1 {
+    font-size: 3rem;
+    color: #1b1b1b;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-family: fantasy;
+    text-shadow: 0px 0px 2px;
+}
+
+.my_btn {
+    margin: 5px;
+    background: orange;
+    padding: 18px 38px;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background: linear-gradient(#ff9b24, #ff9b24 50%, #00bbae 50%, #00bbae);
+    box-shadow: 0px 0px 15px #ff9c2499;
+    background-size: 100% 200%;
+    /* transition: background 500ms; */
+    transition-property: all;
+    transition-duration: 1s;
+    text-shadow: 0px 0px 2px rgba(68, 68, 67, 0.467);
+    letter-spacing: 1px;
+}
+
+
+.my_btn:hover {
+    background-position: 100% 100%;
+}
+
+.h-screen {
+    position: absolute;
+    top: -14%;
+    left: 50%;
+    width: 4%;
+}
+
+
+/* 
+
+Socailmedia parent css
+
+
+*/
+.left_socialMedia {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    left: 55px;
+    transform-origin: 50% 0;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    z-index: 2;
+}
+
+.-z-110 {
+    z-index: -110;
+    width: 250px;
+    opacity: 0.6;
+}
+
+.md_sec {
+    padding: 30px;
+    background: #ffffffcf;
+    margin-top: 2pc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.t_cap h1 {
+    margin-top: 2pc;
+    color: black;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #00000037;
+    margin: 20px;
+}
+
+p {
+    margin: 15px;
+    color: gray;
+    text-shadow: 0px 0px 3px #00000030;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slider-container {
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}

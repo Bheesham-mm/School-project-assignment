@@ -1,0 +1,7 @@
+body {
+    background: linear-gradient(100.88deg, #fff6eb .6%, #ebfffe);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
